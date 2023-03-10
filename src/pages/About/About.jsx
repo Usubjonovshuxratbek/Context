@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Context } from '../../Context/Context'
 
 function About() {
-    const {id, setId} = useContext(Context)
+    const {id} = useContext(Context)
   return (
     <div>
       <h2>About</h2>
